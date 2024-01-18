@@ -1,0 +1,12 @@
+apps:
+  api:
+    namespace: "rest-api"
+    repository: "git@github.com:bcarlog/pashionshare.git"
+    branch: "main"
+    path: "helm/applications/api"
+  
+  # mongodb:
+  #   namespace: "mongodb"
+  #   repository: "git@github.com:southworks/koitere.git"
+  #   branch: "terraform-pipeline"
+  #   path: "cy-aks/helm/addons/mongodb"
